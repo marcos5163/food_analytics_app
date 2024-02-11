@@ -1,0 +1,17 @@
+curl 'https://www.swiggy.com/dapi/order/all?order_id=165652329296000' \
+  -H 'authority: www.swiggy.com' \
+  -H '__fetch_req__: true' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9,kn;q=0.8' \
+  -H 'content-type: application/json' \
+  -H 'cookie: __SW=mnxYSV3lbh5eTKNt33ZIfuHyG8mfrk27; _device_id=4a16960b-100a-e8b1-24a1-72ff58bbb825; fontsLoaded=1; _gcl_au=1.1.613218541.1706249287; _gid=GA1.2.2142023389.1706634171; _is_logged_in=1; _session_tid=5f9927ffbc421100fe1c71d43b78dff034e88065365749219ed7217bdbb39081d4451f4fe494664a7700459cb55ab8a8a3f7d08e1000025e3a346e457e0c6e14adc6e0558a855996f822e9eeb7153e4c6a72878adab0b713370ed052e262fa143b6400ded4995420949611a3da034fe2; _ga_4BQKMMC7Y9=GS1.2.1706689600.4.0.1706689600.60.0.0; userLocation=%7B%22lat%22%3A%2212.912620373412922%22%2C%22lng%22%3A%2277.63257026672363%22%2C%22address%22%3A%22Sector%207%2C%20HSR%20Layout%2C%20Bengaluru%2C%20Karnataka%2C%20India%22%2C%22area%22%3A%22Qubole%20Building%22%2C%22id%22%3A%22264717294%22%7D; _ga=GA1.2.220906113.1706249287; adl=true; _sid=bwg0cef7-82d5-40a7-8444-98d0a6a0a5aa; _ga_34JYJ0BCRN=GS1.1.1706699860.10.0.1706699860.0.0.0' \
+  -H 'if-none-match: W/"212c8-QcO6aDeadjbSvlPr9W5cYL5DGPA"' \
+  -H 'referer: https://www.swiggy.com/my-account/orders' \
+  -H 'sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  --compressed
